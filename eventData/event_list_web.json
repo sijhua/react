@@ -1,0 +1,66 @@
+[
+   {
+      "name": "Weekend bike race",
+      "title": "this is the subtitle",
+      "url": "https://au-east-ap-2.aws.s3.com/logos/438738834783.png",
+      "scheme": "green",
+      "tags": "BBQ, football, game",
+      "where": "414/1 Queens street, Melbourne VIC 3125",
+      "when": {
+         "type": "oneoff",
+         "start": "2021-06-06 10:00am",
+         "end": "2021-06-06 12:00pm"
+      },
+      "goals": {
+         "switch": "on",
+         "attendee": "20"
+      },
+      "fee": {
+         "switch": "off",
+         "amount": "$0"
+      }
+   },
+   {
+      "name": "Swimming pool class",
+      "title": "this is the subtitle",
+      "url": "https://au-east-ap-2.aws.s3.com/logos/438738834783.png",
+      "scheme": "violet",
+      "tags": "swimming, class",
+      "where": "414/1 Queens street, Melbourne VIC 3125",
+      "when": {
+         "type": "normal",
+         "start": "2021-06-08 10:00am",
+         "end": "2021-06-09 12:00pm"
+      },
+      "goals": {
+         "switch": "off",
+         "amount/attendee": ""
+      },
+      "fee": {
+         "switch": "on",
+         "amount": "$10"
+      }
+   },
+   {
+      "name": "Wrestling & Boxing class",
+      "title": "this is the subtitle",
+      "url": "https://au-east-ap-2.aws.s3.com/logos/438738834783.png",
+      "scheme": "grey",
+      "tags": "wrestling, boxing, class",
+      "where": "414/1 Queens street, Melbourne VIC 3125",
+      "when": {
+         "type": "customised",
+         "start": "2021-06-08 10:00am",
+         "end": "2021-06-08 12:00pm",
+         "period":7
+      },
+      "goals": {
+         "switch": "off",
+         "amount": "10"
+      },
+      "fee": {
+         "switch": "on",
+         "amount": "$100"
+      }
+   }
+]

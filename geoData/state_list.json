@@ -1,0 +1,9 @@
+{
+    "vic":{"value":"VIC","id":"vic","data":"/geoData/suburb-2-vic.geojson","loc":{"lat": -37.840934,"lng": 144.946454}},
+    "act":{"value":"ACT","id":"act","data":"/geoData/suburb-2-act.geojson","loc":{"lat": -35.4735,  "lng": 149.0124}},
+    "nsw":{"value":"NSW","id":"nsw","data":"/geoData/suburb-2-nsw.geojson","loc":{"lat": -33.8688,  "lng": 151.2093}},
+     "nt":{"value":"NT", "id":"nt", "data":"/geoData/suburb-2-nt.geojson", "loc":{"lat": -12,       "lng": 132}},
+    "qld":{"value":"QLD","id":"qld","data":"/geoData/suburb-2-qld.geojson","loc":{"lat": -27.4705,  "lng": 153.0260}},
+     "sa":{"value":"SA", "id":"sa", "data":"/geoData/suburb-2-sa.geojson", "loc":{"lat": -34.9285,  "lng": 138.6007}},
+     "wa":{"value":"WA", "id":"wa", "data":"/geoData/suburb-2-wa.geojson", "loc":{"lat": -31.9523,  "lng": 115.8613}},
+    "tas":{"value":"TAS","id":"tas","data":"/geoData/suburb-2-tas.geojson","loc":{"lat": -42.0409,  "lng": 146.8087}}}

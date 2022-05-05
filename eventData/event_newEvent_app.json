@@ -1,0 +1,57 @@
+{
+   "name": "Weekend bike race",
+   "title": "this is the subtitle",
+   "url": "https://au-east-ap-2.aws.s3.com/logos/438738834783.png",
+   "scheme": "violet/blue/yellow/green/pink/red/grey",
+   "tags": "BBQ, football, game",
+   "where": "414/1 Queens street, Melbourne VIC 3125",
+   "when": {
+      "type": "oneoff/normal/customised",
+      "start": "2021-06-06 10:00am",
+      "end": "2021-06-06 12:00pm"
+   },
+   "reminder": {
+      "switch": "on/off",
+      "period": "5mins",
+      "ahead": "6hours"
+   },
+   "goals": {
+      "switch": "on/off",
+      "amount/attendee": "1000/200"
+   },
+   "fee": {
+      "switch": "on/off",
+      "amount": "10"
+   },
+   "products": [
+      {
+         "id": "sku123",
+         "name": "event cup",
+         "price": "5"
+      },
+      {
+         "id": "sku12",
+         "name": "event cup 2",
+         "price": "15"
+      }
+   ],
+   "recipients": [
+      {
+         "name": "jake collins",
+         "email": "jake@gmail.com",
+         "type": "seller"
+      },
+      {
+         "name": "john hansone",
+         "email": "john@gmail.com",
+         "type": "seller"
+      },
+      {
+         "name": "mike hansone",
+         "email": "mike@gmail.com",
+         "type": "customer"
+      }
+   ],
+   "message-seller": "please park your car via the backyard",
+   "message-customer": "please park your car via the backyard"
+}
