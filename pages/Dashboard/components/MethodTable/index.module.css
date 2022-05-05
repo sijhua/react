@@ -1,0 +1,59 @@
+.methodTable_container{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+.grid_item_root{
+    background: #3464DC !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 1rem !important;
+    line-height: 35px !important;
+    color: #FFFFFF !important;
+    text-align: center;
+    height: 35px !important;
+}
+.grid_body_container_root{
+    background: #F2F4F7 !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 0.75rem !important;
+    /* line-height: 47px !important; */
+    color: #000000 !important;
+    /* padding-left: 19px; */
+    min-height: 47px !important;
+    border: 1px solid #fff;
+    align-items: center !important;
+    justify-items: center !important;
+}
+.methodName_text{
+    padding-left: 19px;
+}
+
+.methodTable_setUp_button{
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 0.75rem !important;
+    line-height: 14px;
+    color: #FFFFFF !important;
+    background: #7499F0 !important;
+    border-radius: 5px !important; 
+    text-transform:lowercase !important;
+}
+.methodName_container{
+    display: flex;
+
+}
+.methodName_icon{
+    width: 20px;
+    height: 20px;
+}
+.grid_item_body_root{
+    text-align: center;
+}
+/* .grid_item_name_root{
+
+} */

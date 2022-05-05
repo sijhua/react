@@ -1,0 +1,282 @@
+
+.account_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #000000;
+}
+.account_container_pad{
+    width: 100%;
+    height: 100%;
+    color: #000000;
+}
+.account_tab_container{
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.account_tab_container_hide{
+    margin: 0 auto;
+    /* margin-top: 40px; */
+}
+.account_body_container{
+    width: 100%;
+}
+.account_tabsList{
+    width: 100% !important;
+    justify-content: space-between !important;
+}
+.account_down_icon{
+    width: 8px;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    /* margin-left: -20px; */
+}
+.group{
+    position: relative;
+}
+.account_more_icon{
+    width: 4px;
+}
+.wrapper{
+    display: flex !important;
+    text-align: left !important;
+}
+/* =========== companyInfo============*/
+.companyInfo_container{
+    width: 100%;
+    margin-top: 29px;
+    background-color: #fff;
+    min-height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tabSelected{
+    color: #3464DC !important;
+}
+.indicator{
+    background-color: transparent !important;
+}
+.tabRoot{
+    display: flex !important;
+    padding: 0 !important;
+    text-transform:none !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 0.625rem !important;
+    line-height: 12px !important;
+}
+.board_title_container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 2px;
+}
+.board_title_img{
+    width: 24px;
+    margin-right:10px;
+}
+.board_title_down_icon{
+    width: 8px;
+    margin-right:10px;
+}
+.board_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 21px;
+/* identical to box height */
+
+}
+.formControl{
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 12px;
+    align-items: center;
+}
+.formControl_Aboutyourbusiness{
+    margin: 0 auto;
+    /* flex-direction:initial !important; */
+    display: flex;
+    /* margin-top: 34px; */
+    margin-bottom: 12px;
+}
+.companyInfo_form{
+    width: 90%;
+    margin: 0 auto !important;
+    padding-top: 25px !important;
+}
+.inputLabel_root{
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 0.625rem !important;
+    margin-right: 2.3vw;
+    width: 110px;
+    text-align: right;
+}
+.company_Form_input,.company_Form_input_address,.company_Form_input_person,.company_Form_input_person_ContactNumber,.company_Form_input_bank{
+    border-radius: 5px;
+    height: 26px !important;
+    background-color: #F2F4F7 !important;
+    width: 12vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.625rem !important;
+    line-height: 12px;
+    color: #C4C4C4 !important;
+}
+.company_basic_for_row{
+    margin-top:16px
+}
+.company_base_input{
+    padding:8px !important;
+    color: #000000 !important;
+}
+.company_Form_input_address{
+    width: 24.5vw;
+}
+.company_Form_input_person{
+    width: 8vw;
+}
+.company_Form_input_Aboutyourbusiness{
+    width: 26vw;
+    background-color: #F2F4F7 !important;
+    border-radius: 5px;
+    /* height: 66px !important; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.625rem !important;
+    color: #C4C4C4 !important;
+    line-height: 12px;
+}
+.inputLabel_root_multiline{
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 0.625rem !important;
+    margin-right: 34px;
+    width: 110px;
+    text-align: right;
+}
+.formControl_group{
+    display: flex;
+    
+    /* justify-content: space-between; */
+}
+.formControl_ContactNumber{
+    display: flex;
+    /* margin-top: 34px; */
+    margin-bottom: 12px;
+    align-items: center;
+}
+.company_Form_input_person_ContactNumber{
+    width: 8.75vw;
+}
+.formControl_avatar{
+    margin: 0 auto;
+    width: 10vw;
+    height: 10vw;
+    background-color: rgba(211, 211, 211, 0.6);
+    border-radius: 5px;
+    display: none;
+}
+.cert_img{
+    background: rgba(211, 211, 211, 0.6);
+    border-radius: 10px;
+    width: 14vw;
+    height: 87px;
+    display: none;
+}
+.inputBase_group{
+    display: grid;
+}
+.company_Form_input_bank{
+    margin-bottom: 4px;
+}
+.company_Form_input_verify{
+    width: 18vw;
+    background-color: #F2F4F7 !important;
+    border-radius: 5px;
+    /* height: 66px !important; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.625rem !important;
+    color: #C4C4C4 !important;
+    line-height: 12px !important;
+
+}
+.saveButton{
+    width: 151px;
+    height: 43px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: #fff !important;
+    background: #3464DC !important;
+    border-radius: 5px;
+    justify-self:end !important;
+}
+.saveButton_wrapper{
+    width: 85%;
+    display: grid;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.card_group_container{
+    /* margin-left: 2vw; */
+    margin-right: 2vw;
+}
+.card_group_container_hide{
+    /* margin-left: 2vw; */
+    position: relative;
+    margin-right: 2vw;
+    display: flex;
+    height: fit-content;
+    /* position:absolute; */
+}
+
+.card_top_button_conner_bubble{
+    position: relative;
+    width: 34px;
+    height: 34px;
+    
+}
+@-webkit-keyframes up {
+    0% {
+      top: 25px;
+    }
+    
+    100% {
+      /* left: 150px; */
+      top: 0px;
+    }
+  }
+
+.card_group_container_pad{
+    /* margin-left: 2vw; */
+    margin-right: 2vw;
+    display: flex;
+}
+.card_top_button_conner{
+    width: 34px;
+    position: absolute;
+}
+.card_top_button_conner_hide{
+    width: 34px;
+    position: absolute;
+    -webkit-animation: up 0.3s linear;
+}
+.card_top_button_conner_cont{
+    position: relative;
+    margin-top: 2vw;
+    margin-right: 2vw;
+}

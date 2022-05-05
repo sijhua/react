@@ -1,0 +1,260 @@
+.staff_container{
+    width: 98%;
+    margin: 0 auto;
+    min-height: 600px;
+}
+.indicator{
+    background-color: transparent !important;
+}
+.sales_tabsList{
+    width: 100% !important;
+    /* justify-content: space-between !important; */
+}
+.staff_tab_container{
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.staff_tab_container_hide{
+    margin: 0 auto;
+    /* margin-top: 40px; */
+}
+.staff_down_icon{
+    width: 8px;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    /* margin-left: -20px; */
+}
+.tabRoot{
+    display: flex !important;
+    padding: 0 !important;
+    text-transform:none !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 0.625rem !important;
+    line-height: 12px !important;
+}
+.staff_more_tabRoot{
+    text-transform:none !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 0.625rem !important;
+    line-height: 12px !important;
+}
+.tabSelected{
+    color: #3464DC !important;
+}
+.sales_down_icon{
+    width: 8px;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    /* margin-left: -20px; */
+}
+.sales_more_icon{
+    width: 4px;
+}
+/* ============staff section============ */
+.staff_tag_container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    min-height: 200px;
+    margin-top: 24px;
+    padding: 30px 0;
+}
+.staff_datagrid{
+    width: 100%;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    border-radius: 5px;
+}
+.staff_datagrid_open{
+    width: 95%;
+    margin: 0 auto;
+    /* margin-top: ; */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    border-radius: 5px;
+}
+.staff_datagrid_container{
+    width: 33%;
+    min-width: 330px;
+    /* margin-left: 4vw; */
+    display: flex;
+    min-height: 600px;
+}
+.staff_datagrid_collapsed_toRight_bt{
+    width: 8px;
+    height: 6px;
+    margin: 0 auto;
+    z-index: 999;
+}
+.staff_detail_container{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 100%;
+    min-height: 500px;
+    margin-top: 50px;
+    resize:none;
+    /* margin-right: 60px; */
+    width: 100%;
+    /* max-width: 60%; */
+}
+
+.staff_datagrid_collapsed_bt_container{
+    height: 85%;
+    margin-left: 10px;
+    width: 16px;
+    position: relative;
+    display: grid;
+    align-items: center;
+    align-self: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+.staff_datagrid_collapsed_bt{
+    position:absolute;
+    height: 45px;
+    width: 16px;
+    /* margin: 0 auto;
+    top: 0;
+    bottom: 0; */
+    
+}
+.basicInfo_group{
+    display: flex;
+    
+}
+
+.basicInfo_ava{
+    margin-left: 4vw;
+    margin-right: 26px;
+    width: 80px;
+    height: 80px;       
+}
+.basicInfo_text_name{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5625rem;
+line-height: 29px;
+
+color: #000000;
+}
+.basicInfo_text_gray{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 0.9375rem;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #686868;
+}
+.basicInfo_text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 1.25rem;
+line-height: 23px;
+
+color: #000000;
+
+}
+.basicInfo_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 23px;
+    color: #000000;}
+
+.basicInfo_group_2{
+    min-height: 60px;
+    height: 85%;
+    display: grid;
+    align-content: space-between;
+}
+.gridroot{
+    margin-top: 15px !important;
+}
+.Dividerroot{
+    width: 90%;
+    margin:0 auto !important;
+    margin-top: 10px !important;
+}
+.basicInfo_value{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 0.9375rem;
+line-height: 18px;
+text-align: center;
+color: #3464DC;
+}
+.basicInfo_value_name{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 0.9375rem;
+line-height: 18px;
+text-align: center;
+/* identical to box height */
+
+
+color: #525866;
+}
+.basicInfo_value_bt_group{
+    display: flex;
+    justify-content: center;
+}
+.basicInfo_value_bt{
+    width: 3px;
+    margin-left: 16px;
+    /* height: 15px; */
+    align-content: center;
+}
+
+/* ===================== salesApplication ============= */
+.staff_salesApplication_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 10px; */
+    min-height: 600px;
+    /* margin-top: 24px; */
+}
+.salesApplication_container{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    min-height: 600px;
+    margin-top: 24px;
+}
+.detail_container{
+    height: 100%;
+    display: flex;
+    width: 60%;
+    /* max-width: 60%; */
+    background: #fff;
+}
+
+/* ::-webkit-scrollbar-thumb{
+    background: rgba(52, 100, 220, 0.87);
+} */

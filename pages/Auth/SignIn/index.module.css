@@ -1,0 +1,26 @@
+.container {
+    justify-content: center;
+    height: 555px;
+    text-align: center;
+    background-image: url('./../../../public/img/SignInImg/bubbleBackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.content {
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+}
+.logoImgContainer {
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    margin-bottom: 95px;
+}
+.logoImg {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+}

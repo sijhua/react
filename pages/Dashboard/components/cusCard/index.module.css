@@ -1,0 +1,145 @@
+.cusCard_container{
+    margin-bottom: 2vw;
+}
+.card_root{
+    min-width: 200px;
+    min-height: 200px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 10px !important;
+}
+.card_top_button_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_top_button_fold{
+    width: 10px;
+    height: 11px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.card_top_button_title{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.75rem;
+    line-height: 14px;
+    color: #000000;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card_title_button_group{
+    display: inline-flex;
+
+}
+.cusCard_body{
+    margin: 28px auto;
+}
+.cusCard_ball_container{
+    /* width: 7.3vw; */
+    height: 7.3vw;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+.cusCard_ball_container_big{
+    /* width: 7.3vw; */
+    height: 12.8vw;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+.card_group_container{
+    margin: 0 auto;
+}
+.cusCard_ball{
+    /* position: absolute; */
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 7.3vw;
+    height: 7.3vw;
+    z-index: 100;
+}
+.cusCard_ball_big{
+    
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 12.8vw;
+    height: 12.8vw;
+    z-index: 100;
+    /* align-items: center; */
+}
+.data_container{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    top:3vw;
+    color: #6B6666;
+    z-index: 999;
+    /* height: 100%; */
+    /* margin-top: 10vw; */
+}
+
+.selectedMonth_group{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 15px;
+    color: #3464DC;
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+.monthButton_group{
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #7499F0;
+
+    justify-content: space-around;
+}
+.monthButton{
+
+}
+.monthButton_selected{
+    color: #C4C4C4;
+}
+.rank_group{
+    display: flex;
+    justify-content: center;
+    /* position: absolute;  */
+    margin: 0 auto;
+    /* margin-bottom: -4vw; */
+    z-index:900;
+}
+.rank_img{
+    width: 1.5vw;
+}   
+.rank_text{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height:  2.1vw;
+    text-align: center;
+    color: #2459DA;
+}
