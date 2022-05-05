@@ -1,0 +1,61 @@
+{
+   "id":0,
+    "profile": [{
+       "ava":{"item":"/img/Dashboard/staff_test.svg","type":"img"},
+       "name": { "item":"Tom Williams","type":"string"},
+       "phone": { "item":"0480393283","type":"string"},
+       "address": { "item":"6 Avence st, Chatswood Nsw 2000","type":"string"},
+       "title": { "item":"Client Manager","type":"string"},
+       "email": { "item":"tomwilliams@gmail.com","type":"string"},
+       "qualifications": { "item":"the University of Sydney","type":"string"},
+       "customised": [
+          {
+             "key": { "item":"working address","type":"string"},
+             "value": { "item":"3 lana court Melbourne VIC 3030","type":"string"}
+          },
+          {
+             "key": { "item":"annual income","type":"string"},
+             "value": { "item":"$10000","type":"string"}
+          }
+       ],
+       "specialties": { "item":"Finance, IT","type":"string"},
+       "certificates": [
+          {
+             "name": { "item":"drive license","type":"string"},
+             "url": { "item":"https://au-east-ap-2.aws.s3.com/logos/438738834783.png","type":"string"}
+          },
+          {
+             "name": { "item":"cook diploma","type":"string"},
+             "url": { "item":"https://au-east-ap-2.aws.s3.com/logos/438738834783.png","type":"string"}
+          }
+       ],
+       "status": { "item":"waiting for approval","type":"string"},
+       "message": [
+          {
+             "message": { "item":"this is the latest message from merchant to applicant","type":"string"},
+             "date": { "item":"2021-06-23","type":"string"}
+          }
+       ],
+       "more":{"item":"/img/Dashboard/filter_more.svg","type":"img"},
+       "customerCode": { "item":"e03ad33c-ad24-45d4-85cd-dab5ca78f0b2","type":"string"},
+       "lodgedAt": { "item":"20/08/21","type":"string"},
+       "updateAt": { "item":"22/08/2021","type":"string"}
+    }],
+    "Message": [{
+          "title": "Event Detail",
+          "content": "hi, can we meet up and discuss about the coming up event on tomorrow?",
+          "sent": "2021-06-22"
+      },{
+          "title": "From sales team",
+          "content": "This is the requirement from the Tom's sales team. Please read it.",
+          "sent": "2021-06-22"
+      },{
+          "title": "Event Detail",
+          "content": "hi, can we meet up and discuss about the coming up event on tomorrow?",
+          "sent": "2021-06-22"
+      },{
+          "title": "From sales team",
+          "content": "This is the requirement from the Tom's sales team. Please read it.",
+          "sent": "2021-06-22"
+    }]
+ }

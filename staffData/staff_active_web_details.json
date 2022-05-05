@@ -1,0 +1,58 @@
+{
+    "profile": {
+       "name": "Tom Williams",
+       "phone": "0480393283",
+       "address": "6 Avence st, Chatswood Nsw 2000",
+       "title": "Client Manager",
+       "email": "tomwilliams@gmail.com",
+       "qualifications": "the University of Sydney",
+       "customised": [
+          {
+             "key": "working address",
+             "value": "3 lana court Melbourne VIC 3030"
+          },
+          {
+             "key": "annual income",
+             "value": "$10000"
+          }
+       ],
+       "specialties": "Finance, IT",
+       "certificates": [
+          {
+             "name": "drive license",
+             "url": "https://au-east-ap-2.aws.s3.com/logos/438738834783.png"
+          },
+          {
+             "name": "cook diploma",
+             "url": "https://au-east-ap-2.aws.s3.com/logos/438738834783.png"
+          }
+       ],
+       "status": "waiting for approval",
+       "message": [
+          {
+             "message": "this is the latest message from merchant to applicant",
+             "date": "2021-06-23"
+          }
+       ],
+       "customerCode": "e03ad33c-ad24-45d4-85cd-dab5ca78f0b2",
+       "lodgedAt": "20/08/21",
+       "updateAt": "22/08/2021"
+    },
+    "Message": [{
+          "title": "Event Detail",
+          "content": "hi, can we meet up and discuss about the coming up event on tomorrow?",
+          "sent": "2021-06-22"
+      },{
+          "title": "From sales team",
+          "content": "This is the requirement from the Tom's sales team. Please read it.",
+          "sent": "2021-06-25"
+      },{
+          "title": "Event Detail",
+          "content": "hi, can we meet up and discuss about the coming up event on tomorrow?",
+          "sent": "2021-06-23"
+      },{
+          "title": "From sales team",
+          "content": "This is the requirement from the Tom's sales team. Please read it.",
+          "sent": "2021-06-22"
+    }]
+ }

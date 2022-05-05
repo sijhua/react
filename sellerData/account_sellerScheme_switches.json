@@ -1,0 +1,59 @@
+{
+    "criteria": [
+       {
+          "id": "fullName",
+          "type": "input",
+          "switch": true,
+          "system": "yes",
+          "name" : "Full Name"
+       },
+              {
+          "id": "address",
+          "type": "input",
+          "switch": true,
+          "system": "yes",
+          "name" : "Address"
+       },
+       {
+          "id": "dob",
+          "type": "input",
+          "switch": true,
+          "system": "yes",
+          "name" : "Date of Birth"
+       },
+       {
+          "id": "cNumber",
+          "type": "input",
+          "switch": true,
+          "system": "yes",
+          "name" : "Contact Number"
+       },
+       {
+          "id": "driverLicence",
+          "type": "input",
+          "switch": true,
+          "system": "yes",
+          "name" : "Driver Licence"
+       },
+       {
+          "id": "certificate",
+          "type": "attachment",
+          "switch": true,
+          "system": "yes",
+          "name" : "Certificate"
+       },
+       {
+          "id": "abnNumber",
+          "type": "input",
+          "switch": true,
+          "system": "yes",
+          "name" : "ABN Number"
+       },{
+          "id": "test",
+          "type": "file attachment",
+          "switch": true,
+          "system": "no",
+          "name" : "Family Member"
+       }
+    ]
+ }
