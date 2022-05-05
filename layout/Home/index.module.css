@@ -1,0 +1,62 @@
+
+.container{
+    margin: 0 auto;
+}
+/* ==================header======================  */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_wrapper{
+    width: 152px;
+    margin: 34px 0 0 69px;
+    
+}
+.headerIcon_wrapper{
+    width: 44px;
+    margin-right: 60px;
+}
+/* ==================footer====================== */
+.footer{
+    width: 100%;
+    background: #F9FBFF;
+    padding: 164px 0 0 0;
+    min-height: 500px;
+}
+.footer_container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.footer_root{
+    padding-top: 36px;
+    /* padding-bottom: 280px; */
+}
+.footer_right{
+    font-size: 1.25rem;
+    text-align: right;
+}
+.footer_left{
+    font-size: 1.25rem;
+    text-align: left;
+}
+.footer_content_title,.footer_content_content{
+    font-family: Roboto Roboto_blod;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+.footer_content_content{
+    font-weight: normal !important;
+    font-size:0.9375rem !important;
+    width: 40%;
+    min-width: 156px;
+
+}
+.footer_content_root{
+    height: fit-content;
+    margin-bottom: 36px;
+}

@@ -1,0 +1,146 @@
+
+.container{
+    margin: 0 auto;
+}
+/* ==================header======================  */
+/* .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+.logo_container{
+    height: 100%;
+}
+.logo_wrapper{
+    width: 100px;
+    margin: 11px 0 0 23px;
+    
+}
+.headerIcon_wrapper{
+    width: 44px;
+    margin-right: 60px;
+}
+.appBar{
+    height: 76px !important;
+    flex-direction: row !important;
+}
+.toolbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.optionMenu{
+    margin-top: 60px;
+}
+.search{
+    margin-left: 3vw;
+    display: flex;
+    height: 17px;
+    align-items: center;
+    padding: 12px 0 10px 20px; 
+    background: #EEF1F5;
+    width: 50vw;
+    min-width: 300px;
+}
+.rightSide_container{
+    float: right !important;
+    margin-right: 31px;
+    
+    /* width: 226px; */
+    /* justify-items:last baseline; */
+    /* margin-left: 22vw; */
+}
+.searchIcon{
+    height: 11.25px;
+    width: 11.25px;
+}
+.userIcon{
+    /* height: 11.81px;
+    width: 11.81px; */
+}
+.userSelectionIcon{
+    width: 5.39px;
+    margin-left: 6px;
+}
+.iconButton_user{
+    border-radius: 0 !important;
+}
+.username_container{
+    display: flex;
+    font-size: 0.75rem;
+    line-height: 14px;
+    color: #464343;
+    margin-left: 11px;
+    align-items: center;
+
+}
+.mailIcon{
+    width: 24px;
+    height: 24px;
+}
+.leftSide_container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.inputRoot{
+    margin-left: 17px;
+    width: 95%;
+    font-size:0.75rem !important;
+    color: #7D8597 !important;
+}
+.inputInput{
+    font-size:0.75rem !important;
+    color: #7D8597 !important;
+}
+.grow{
+    /* width: 20%; */
+}
+.toolBar{
+    width: 100%;
+}
+
+/* ==================footer====================== */
+.footer{
+    width: 100%;
+    background: #F9FBFF;
+    padding: 164px 0 0 0;
+    min-height: 500px;
+}
+.footer_container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+.footer_root{
+    padding-top: 36px;
+    /* padding-bottom: 280px; */
+}
+.footer_right{
+    font-size: 1.25rem;
+    text-align: right;
+}
+.footer_left{
+    font-size: 1.25rem;
+    text-align: left;
+}
+.footer_content_title,.footer_content_content{
+    font-family: Roboto Roboto_blod;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+.footer_content_content{
+    font-weight: normal !important;
+    font-size:0.9375rem !important;
+    width: 40%;
+    min-width: 156px;
+
+}
+.footer_content_root{
+    height: fit-content;
+    margin-bottom: 36px;
+}
